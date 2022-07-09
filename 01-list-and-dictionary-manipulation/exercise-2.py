@@ -10,12 +10,12 @@ my_dict = {
 # 1. Write an expression to fetch the value 'Ralf' from my_dict
 #    value = my_dict[SOMETHING-GOES-HERE]
 
-assert value == 'apple'
+assert value == 'Ralf'
 
 # 2. Write an expression to fetch the value 33 from my_dict
 #    value = my_dict[SOMETHING-GOES-HERE]
 
-assert value == 'orange'
+assert value == 33
 
 # 3. Write an expression to fetch the value 'Wibble' from my_dict
 #    value = my_dict[SOMETHING-GOES-HERE]
