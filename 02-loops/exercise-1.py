@@ -6,7 +6,7 @@ def one_to_five_using_for():
 
 #    b) Using a while loop
 
-def one_to_five_using_with():
+def one_to_five_using_while():
     pass
 
 
@@ -19,7 +19,7 @@ def five_to_one_using_for():
 
 #    b) Using a while loop
 
-def five_to_one_using_with():
+def five_to_one_using_while():
     pass
 
 
@@ -40,8 +40,8 @@ def one_to_n_using_input():
 
 
 one_to_five_using_for()
-one_to_five_using_with()
+one_to_five_using_while()
 five_to_one_using_for()
-five_to_one_using_with()
+five_to_one_using_while()
 one_to_n_using_param(7)
 one_to_n_using_input()
