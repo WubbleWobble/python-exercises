@@ -1,0 +1,43 @@
+We're going to create a Person class (stores a name), and an 
+ArcheryClub class (stores a name, capacity and keeps a list of
+members at that ArcheryClub)
+
+We're also going to practise test-driven design (TDD)
+
+-----
+
+1.  Create a new virtual-environment, activate it and install
+    pytest.
+
+2.  Write a test that creates a Person, passing a name, and 
+    checks that their name property matches this name.
+
+3.  Write a Person class that makes this test pass.
+
+4.  Write a test that creates an ArcheryClub, passing a name
+    and capacity and checks that its name and capacity 
+    properties match the values passed. Also check that the
+    list of members is empty.
+
+5.  Write a ArcheryClub class that makes this test pass.
+
+6.  Write a test that makes an ArcheryClub and a Person and uses 
+    the subscribe method on ArcheryClub to make that Person a 
+    member at the ArcheryClub. Check that the person is in the 
+    ArcheryClub's list of members.
+
+7.  Write a subscribe method on ArcheryClub that makes this test
+    pass.
+
+8.  Write a test that checks that checks that a method called
+    "unsubscribe" on ArcheryClub behaves as expected.
+
+9.  Write the method to make this test pass.
+
+10. Write an exception class called ArcheryClubException
+
+11. Write a test that checks that trying to subscribe a Person
+    to an ArcheryClub that is already at capacity raises an
+    ArcheryClubException
+
+12. Write the extra code to make this test pass.
