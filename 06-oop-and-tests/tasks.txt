@@ -29,7 +29,7 @@ We're also going to practise test-driven design (TDD)
 7.  Write a subscribe method on ArcheryClub that makes this test
     pass.
 
-8.  Write a test that checks that checks that a method called
+8.  Write a test that checks that a method called
     "unsubscribe" on ArcheryClub behaves as expected.
 
 9.  Write the method to make this test pass.
